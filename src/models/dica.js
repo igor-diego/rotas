@@ -11,9 +11,9 @@ class Dicas {
 
     // metodo para insercao do usuario no banco de dados
     insere = (msg) => {
-        console.log(msg);
+
         bd.msg.push(msg)
-        console.log(msg);
+        
     }
 
 
