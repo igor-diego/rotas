@@ -8,16 +8,12 @@ class Dicas {
         this.dica = dica
     }
 
-
-    // metodo para insercao do usuario no banco de dados
     insere = (msg) => {
 
         bd.msg.push(msg)
         
     }
 
-
-    // metodo para pegar todos usuarios do banco de dados
     mostra = () => {
         return bd.msg
     }
