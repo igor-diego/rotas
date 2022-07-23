@@ -1,4 +1,8 @@
-const msg = {
-    dica :[]  //criando uma tabela de usuario
-}
-export default msg
+const msg = [{
+	"dica": "teste 1",
+	"dica": "teste 2"
+
+}]
+      
+
+export default {msg}
